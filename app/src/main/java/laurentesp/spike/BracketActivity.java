@@ -3,11 +3,11 @@ package laurentesp.spike;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ParenthesesActivity extends AppCompatActivity {
+public class BracketActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_parentheses);
+        setContentView(R.layout.activity_bracket);
     }
 }

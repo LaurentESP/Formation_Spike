@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         buttonParenthese.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ParenthesesActivity.class);
+                Intent intent = new Intent(MainActivity.this, BracketActivity.class);
                 startActivity(intent);
             }
         });

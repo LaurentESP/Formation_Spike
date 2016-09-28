@@ -22,11 +22,11 @@ public class ExampleUnitTest {
 
     @Test
     public void shouldReturnFalseIfParenthesesNOK() throws Exception {
-        assertEquals(")(",false);
+        assertEquals(false, Brackets.checkBrackets(")("));
     }
 
     @Test
     public void shouldReturnTrueIfParenthesesOK() throws Exception {
-        assertEquals("(()())",true);
+        assertEquals(true, Brackets.checkBrackets("(()())"));
     }
 }
