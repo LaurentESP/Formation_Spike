@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button buttonPal = (Button) findViewById(R.id.button_to_Palindrom);
         Button buttonParenthese = (Button) findViewById(R.id.button_to_Parentheses);
+        Button buttonFibo = (Button) findViewById(R.id.button_to_Fibo);
 
         buttonPal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,5 +33,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonFibo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FiboActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

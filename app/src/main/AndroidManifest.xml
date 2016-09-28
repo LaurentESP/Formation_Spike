@@ -19,7 +19,8 @@
             android:name=".PalindromActivity"
             android:label="@string/title_activity_palindrom"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".BracketActivity"></activity>
+        <activity android:name=".BracketActivity" />
+        <activity android:name=".FiboActivity"></activity>
     </application>
 
 </manifest>
