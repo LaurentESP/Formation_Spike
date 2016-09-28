@@ -17,22 +17,22 @@
         android:layout_height="wrap_content"
         android:text="Choose your function : " />
     <Button
-        android:id="@+id/button_0"
+        android:id="@+id/button_to_Palindrom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Check if palindrom"/>
     <Button
-        android:id="@+id/button_1"
+        android:id="@+id/button_to_Parentheses"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Check Parentheses"/>
     <Button
-        android:id="@+id/button_2"
+        android:id="@+id/button_to_Fibo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Get Fibonacci"/>
     <Button
-        android:id="@+id/button_3"
+        android:id="@+id/button_to_Rand"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Randomize strings from text"/>
