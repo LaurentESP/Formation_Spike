@@ -38,9 +38,9 @@ public class RandomText {
         StringTokenizer stringTokenizer = new StringTokenizer(sentenceIn.trim()," ");
         StringBuffer stringBufToReturn = new StringBuffer("");
         while (stringTokenizer.hasMoreTokens()) {
-            stringBufToReturn.append(randomLettersInAWord(stringTokenizer.nextToken()));
+            stringBufToReturn.append(randomLettersInAWord(stringTokenizer.nextToken())).append(" ");
         }
-        return stringBufToReturn.toString();
+        return stringBufToReturn.toString().trim();
     }
 
 
