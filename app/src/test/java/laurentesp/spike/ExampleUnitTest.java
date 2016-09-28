@@ -17,6 +17,6 @@ public class ExampleUnitTest {
 
     @Test
     public void shouldReturnReverseStringIfPalindrom() throws Exception {
-        assertEquals("lavaL", new Palindrom.checkIfPalindrom("Laval"));
+        assertEquals("lavaL", Palindrom.checkIfPalindrom("Laval"));
     }
 }
