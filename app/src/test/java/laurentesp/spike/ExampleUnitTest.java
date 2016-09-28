@@ -29,4 +29,10 @@ public class ExampleUnitTest {
     public void shouldReturnTrueIfParenthesesOK() throws Exception {
         assertEquals(true, Brackets.checkBrackets("(()())"));
     }
+
+    @Test
+    public void shouldReturnTrueIfFibo3IterationsIsGood() throws Exception {
+        assertEquals("1 1 2", Fibonacci.fiboSequence(3));
+    }
+    
 }
