@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button buttonPal = (Button) findViewById(R.id.button_to_Palindrom);
+        Button buttonParenthese = (Button) findViewById(R.id.button_to_Parentheses);
+
         buttonPal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -21,5 +23,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        buttonParenthese.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ParenthesesActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

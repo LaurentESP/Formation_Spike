@@ -18,7 +18,8 @@
         <activity
             android:name=".PalindromActivity"
             android:label="@string/title_activity_palindrom"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ParenthesesActivity"></activity>
     </application>
 
 </manifest>
