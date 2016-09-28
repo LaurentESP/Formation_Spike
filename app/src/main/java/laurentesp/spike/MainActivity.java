@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         Button buttonPal = (Button) findViewById(R.id.button_to_Palindrom);
         Button buttonParenthese = (Button) findViewById(R.id.button_to_Parentheses);
         Button buttonFibo = (Button) findViewById(R.id.button_to_Fibo);
+        Button buttonRand = (Button) findViewById(R.id.button_to_Rand);
+
 
         buttonPal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,5 +42,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        buttonRand.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RandomTextActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }
