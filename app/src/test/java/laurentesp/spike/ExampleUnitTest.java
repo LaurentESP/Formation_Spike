@@ -2,6 +2,7 @@ package laurentesp.spike;
 
 import org.junit.Test;
 
+import static org.hamcrest.core.StringContains.containsString;
 import static org.junit.Assert.*;
 
 /**
@@ -35,4 +36,8 @@ public class ExampleUnitTest {
         assertEquals("1 1 2", Fibonacci.fiboSequence(3).trim());
     }
 
+    @Test
+    public void testIfRandomTextIsOk() throws Exception {
+        assertThat("one oen eon eno noe neo", containsString( RandomText.mixLettersInWords("one")));
+    }
 }
