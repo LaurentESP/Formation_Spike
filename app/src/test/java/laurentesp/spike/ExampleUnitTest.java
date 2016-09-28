@@ -32,7 +32,7 @@ public class ExampleUnitTest {
 
     @Test
     public void shouldReturnTrueIfFibo3IterationsIsGood() throws Exception {
-        assertEquals("1 1 2", Fibonacci.fiboSequence(3));
+        assertEquals("1 1 2", Fibonacci.fiboSequence(3).trim());
     }
-    
+
 }
