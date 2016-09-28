@@ -19,4 +19,14 @@ public class ExampleUnitTest {
     public void shouldReturnReverseStringIfPalindrom() throws Exception {
         assertEquals("lavaL", Palindrom.checkIfPalindrom("Laval"));
     }
+
+    @Test
+    public void shouldReturnFalseIfParenthesesNOK() throws Exception {
+        assertEquals(")(",false);
+    }
+
+    @Test
+    public void shouldReturnTrueIfParenthesesOK() throws Exception {
+        assertEquals("(()())",true);
+    }
 }
